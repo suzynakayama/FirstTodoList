@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap');
+
+* {
+    margin: 10px;
+    padding: 10px;    
+}
+
+body {
+    font-family: 'Indie Flower', cursive;
+    height: 100%;
+}
+
+.container {
+    background-attachment: fixed;
+    background-image: url('/My Take/test.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+}
+
+h1 {
+    font-size: 3em;
+    text-decoration: underline;
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.inner {
+    display: block;
+    margin: 0 auto;
+    width: 60%;
+    padding: 10px;
+    text-align: center;
+}
+
+Input {
+    border: 2px solid rgb(102, 153, 255);
+    background-color: rgba(102, 153, 255, 0.4);
+    font-family: 'Indie Flower', cursive;
+    font-size: 20px;
+    font-weight: bold;
+    color:  rgb(102, 153, 255); 
+}
+
+.btn {
+    width: 60px;
+    height: 45px;
+    border: 2px solid rgb(102, 153, 255);
+    background-color: rgba(102, 153, 255, 0.4);
+    border-radius: 30%;
+    font-family: 'Indie Flower', cursive;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(102, 153, 255);
+}
+
+#cleanAll {
+    margin-top: 150px;
+    width: 110px;
+    height: 50px;
+    color: red;
+}
+
+footer {
+    position: relative;
+    size: 100px;
+    bottom: 0px;
+}
+
+.creation {
+    float: right;
+}
+
+.back {
+    float: left;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    content: " ";
+    clear: both;
+    height: 0;
+    font-size: 0;
+    }
+
+li {
+    list-style: none;
+    font-size: 1.5em;
+}
+
+.done {
+    text-decoration: line-through;
+}
